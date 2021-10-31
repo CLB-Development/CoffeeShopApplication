@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CoffeeShopApplication.MainTabbedPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Menu">
+        <StackLayout BackgroundColor="Black">
+            <Frame BackgroundColor="Black" VerticalOptions="CenterAndExpand">
+                <Image Source="JulesCafeLogo.png"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"/>
+
+            </Frame>
+            <Frame BackgroundColor="#545c5c">
+                <Button x:Name="Espresso"
+                    Text="Espresso" 
+                    TextColor="White" 
+                    FontSize="20" 
+                    BackgroundColor="Transparent"
+                    Clicked="Espresso_Clicked"/>
+            </Frame>
+            <Frame BackgroundColor="#7c6b54">
+                <Button x:Name="HotDrinks"
+                    Text="Hot Drinks" 
+                    TextColor="White" 
+                    FontSize="20" 
+                    BackgroundColor="Transparent"
+                    Clicked="HotDrinks_Clicked"/>
+            </Frame>
+            <Frame BackgroundColor="#545c5c">
+                <Button x:Name="ColdDrinks"
+                    Text="Cold Drinks" 
+                    TextColor="White" 
+                    FontSize="20" 
+                    BackgroundColor="Transparent"
+                    Clicked="ColdDrinks_Clicked"/>
+            </Frame>
+            <Frame BackgroundColor="#7c6b54">
+                <Button x:Name="QuickBites"
+                    Text="Quick Bites" 
+                    TextColor="White" 
+                    FontSize="20" 
+                    BackgroundColor="Transparent"
+                    Clicked="QuickBites_Clicked"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="About Us">
+        <StackLayout BackgroundColor="Black">
+            <Image Source="InStore.png"/>
+            <Label Text="Jules Cafe" 
+                    TextColor="White" 
+                    FontSize="30" />
+            <Label Text="4A Kent Street&#x0a;Newmarket&#x0a;Auckland&#x0a;1023&#x0a;+64 9 444 5555&#x0a;info@julescafe.co.nz" 
+                    TextColor="White" 
+                    FontSize="15"/>
+            <FlexLayout>
+                <Image Source="Instagram.png" HeightRequest="50"/>
+                <Image Source="Facebook.png" HeightRequest="50"/>
+            </FlexLayout>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Map">
+        <WebView x:Name="mapWebView" Source="https://www.google.co.nz/maps/place/4A+Kent+Street,+Newmarket,+Auckland+1023/@-36.8679537,174.776795,113m/data=!3m1!1e3!4m5!3m4!1s0x6d0d4876eda9997b:0x6be9754cf6f407fe!8m2!3d-36.8679681!4d174.7767336" VerticalOptions="FillAndExpand"/>
+    </ContentPage>
+</TabbedPage>

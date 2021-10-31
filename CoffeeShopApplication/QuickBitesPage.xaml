@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CoffeeShopApplication.QuickBitesPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            <Frame BackgroundColor="#7c6b54">
+                <StackLayout>
+                    <Image Source="Bagel.png" HeightRequest="150"/>
+                    <Label Text="Bagel        $1.50" 
+                           TextColor="White" 
+                           FontSize="16" 
+                           BackgroundColor="Transparent"/>
+                    <Label Text="Freshly baked each morning" TextColor="Yellow" FontSize="14" BackgroundColor="Transparent"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#545c5c">
+                <StackLayout>
+                    <Image Source="EggsBenedict.png" HeightRequest="150"/>
+                    <Label Text="Eggs Benedict        $1.50" 
+                           TextColor="White" 
+                           FontSize="16" 
+                           BackgroundColor="Transparent"/>
+                    <Label Text="Poached eggs over bacon and buttered toasted English Muffin, topped with Hollandaise Sauce" TextColor="Yellow" FontSize="14" BackgroundColor="Transparent"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

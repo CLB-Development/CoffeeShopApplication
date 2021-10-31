@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CoffeeShopApplication.MainPage">
+
+    <StackLayout BackgroundColor="Black">
+        <Frame BackgroundColor="Black" VerticalOptions="CenterAndExpand">
+            <Image Source="JulesCafeLogo.png"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"/>
+     
+        </Frame>
+        <Frame BackgroundColor="#545c5c">
+            <Button x:Name="Espresso"
+                    Text="Espresso" 
+                    TextColor="White" 
+                    FontSize="20" 
+                    BackgroundColor="Transparent"
+                    Clicked="Espresso_Clicked"/>
+        </Frame>
+        <Frame BackgroundColor="#7c6b54">
+            <Button x:Name="HotDrinks"
+                    Text="Hot Drinks" 
+                    TextColor="White" 
+                    FontSize="20" 
+                    BackgroundColor="Transparent"
+                    Clicked="HotDrinks_Clicked"/>
+        </Frame>
+        <Frame BackgroundColor="#545c5c">
+            <Button x:Name="ColdDrinks"
+                    Text="Cold Drinks" 
+                    TextColor="White" 
+                    FontSize="20" 
+                    BackgroundColor="Transparent"
+                    Clicked="ColdDrinks_Clicked"/>
+        </Frame>
+        <Frame BackgroundColor="#7c6b54">
+            <Button x:Name="QuickBites"
+                    Text="Quick Bites" 
+                    TextColor="White" 
+                    FontSize="20" 
+                    BackgroundColor="Transparent"
+                    Clicked="QuickBites_Clicked"/>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

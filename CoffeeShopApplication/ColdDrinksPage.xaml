@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CoffeeShopApplication.ColdDrinksPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            <Frame BackgroundColor="#7c6b54">
+                <Label Text="Nitro Cold Brew        $3.75" 
+                       TextColor="White" 
+                       FontSize="15" 
+                       BackgroundColor="Transparent"/>
+            </Frame>
+            <Frame BackgroundColor="#545c5c">
+                <Label Text="Iced Latte     $4.25" 
+                       TextColor="White" 
+                       FontSize="15" 
+                       BackgroundColor="Transparent"/>
+            </Frame>
+            <Frame BackgroundColor="#7c6b54">
+                <Label Text="Frappucino     $4.50" 
+                       TextColor="White" 
+                       FontSize="15" 
+                       BackgroundColor="Transparent"/>
+            </Frame>
+            <Frame BackgroundColor="#545c5c">
+                <Label Text="Iced Coffee        $3.00" 
+                       TextColor="White" 
+                       FontSize="15" 
+                       BackgroundColor="Transparent"/>
+            </Frame>
+            <Frame BackgroundColor="#7c6b54">
+                <Label Text="Creamy Iced Coffee        $3.50" 
+                       TextColor="White" 
+                       FontSize="15" 
+                       BackgroundColor="Transparent"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

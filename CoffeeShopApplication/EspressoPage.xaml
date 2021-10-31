@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Back"
+             x:Class="CoffeeShopApplication.EspressoPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            <Frame BackgroundColor="#7c6b54">
+                <Label Text="Cafe' Americano    $2.50" 
+                       TextColor="White" 
+                       FontSize="15" 
+                       BackgroundColor="Transparent"/>
+            </Frame>
+            <Frame BackgroundColor="#545c5c">
+                <Label Text="Cafe' Latte    $3.00" 
+                       TextColor="White" 
+                       FontSize="15" 
+                       BackgroundColor="Transparent"/>
+            </Frame>
+            <Frame BackgroundColor="#7c6b54">
+                <Label Text="Cappucinno    $3.50" 
+                       TextColor="White" 
+                       FontSize="15" 
+                       BackgroundColor="Transparent"/>
+            </Frame>
+            <Frame BackgroundColor="#545c5c">
+                <Label Text="Single Shot    $0.75" 
+                       TextColor="White" 
+                       FontSize="15" 
+                       BackgroundColor="Transparent"/>
+            </Frame>
+            <Frame BackgroundColor="#7c6b54">
+                <Label Text="Cloud Macchiato    $3.50" 
+                       TextColor="White" 
+                       FontSize="15" 
+                       BackgroundColor="Transparent"/>
+            </Frame>
+            <Frame BackgroundColor="#545c5c">
+                <Label Text="Dolce Latte    $4.50" 
+                       TextColor="White" 
+                       FontSize="15" 
+                       BackgroundColor="Transparent"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
